@@ -9,9 +9,11 @@ Projeto de estudo da biblioteca React, seguindo o curso da alura. O link para o 
 ```
 npm install
 
-´´´
+```
+
 
 #### Dê start no projeto e acesso o link fornecido. 
+
 
 ```
 npm start
