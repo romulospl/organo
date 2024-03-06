@@ -1,0 +1,10 @@
+.redes-sociais div{
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociais div img{
+    width: 32px;
+}

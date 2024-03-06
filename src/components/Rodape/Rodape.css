@@ -1,0 +1,25 @@
+.rodape{
+    background-color: #5068F1;
+    width: 100%;
+    padding: 64px 0px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape div img{
+    width: 100px;
+    margin:auto;
+}
+
+.rodape .credito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
