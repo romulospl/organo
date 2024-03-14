@@ -10,38 +10,31 @@ function App() {
     [
       {
         nome: 'Programação',
-        corPrimaria: '#57C278',
-        corSecundaria: '#D9F7E9',
+        cor: '#57C278',
       },
       {
         nome: 'Front-End',
-        corPrimaria: '#82CFFA',
-        corSecundaria: '#E8F8FF',
+        cor: '#82CFFA',
       },
       {
         nome: 'Data Sciense',
-        corPrimaria: '#A6D157',
-        corSecundaria: '#F0F8E2',
+        cor: '#A6D157',
       },
       {
         nome: 'Devops',
-        corPrimaria: '#E06B69',
-        corSecundaria: '#FDE7E8',
+        cor: '#E06B69',
       },
       {
         nome: 'UX e Design',
-        corPrimaria: '#D86EBF',
-        corSecundaria: '#FAE5F5',
+        cor: '#D86EBF',
       },
       {
         nome: 'Mobile',
-        corPrimaria: '#FEBA05',
-        corSecundaria: '#FFF5D9',
+        cor: '#FEBA05',
       },
       {
         nome: 'Inovação e Gestão',
-        corPrimaria: '#FF8A29',
-        corSecundaria: '#FFEEDF',
+        cor: '#FF8A29',
       }
     ]
   )
@@ -60,7 +53,7 @@ function App() {
   function mudarCorDoTime(cor, nome) {
     setTimes(times.map(time => {
       if (time.nome === nome) {
-        time.corPrimaria = cor
+        time.cor = cor
       }
       return time
     }))
